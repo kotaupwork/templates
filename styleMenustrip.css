@@ -1,0 +1,105 @@
+.menustrip
+{
+    text-align: left;
+    width: 100%;
+    margin: 0 auto;
+    z-index: 300;
+}
+
+.menustrip ul
+{
+    display: inline-flex;
+    list-style: none;
+}
+.menustrip ul:first-child
+{
+    margin-left: 3.5vw;
+}
+
+.menustrip ul li
+{
+    width: auto;
+    margin: 15px;
+    padding: 15px;
+    z-index: 200;
+}
+
+
+.menustrip ul li a
+{
+    color: rgb(240, 234, 234);
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 2.4vh;
+    z-index: 200;
+}
+
+.menustrip ul li:hover
+{
+    background-color:rgb(0, 0, 0, 10%);
+    border-radius: 4px;
+}
+
+.submenu
+{
+    display: none;
+}
+
+.submenu ul li
+{
+    background-color: transparent;
+}
+
+.menustrip ul li:hover .submenu
+{
+    display:block;
+    position: absolute;
+    background-image: linear-gradient(rgb(10, 12, 25, 0.02), rgb(10, 12, 25, 0.7), rgb(10, 12, 25, 0.7), rgb(10, 12, 25, 0.1));
+
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.menustrip ul li:hover .submenu ul
+{
+    display:block;
+    margin: 10px;
+}
+
+.menustrip ul li:hover .submenu ul li
+{
+    width: 180px;
+    padding: 10px;
+    border-bottom: 1px dotted whitesmoke;
+    background-color: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.submenu ul li a:hover
+{
+    color: rgb(60, 110, 110);
+}
+.menustrip ul li:hover .submenu ul li:last-child
+{
+    border-bottom: none;
+}
+
+
+.submenu1
+{
+    display: none;
+}
+
+.hoverme:hover .submenu1
+{
+    position: absolute;
+    display: block;
+    margin-top: -50px;
+    margin-left: 170px;
+    background-image: linear-gradient(rgb(10, 12, 25, 0.9), rgb(10, 12, 25, 0.8), rgb(10, 12, 25, 0.7), rgb(10, 12, 25, 0.3));
+}
+
+.submenu1 ul li a:hover
+{
+    color: rgb(29, 28, 28);
+}

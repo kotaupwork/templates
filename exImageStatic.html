@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="fontovi.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleImageStatic.css">
+    <link rel="icon" href="slike/logo.ico">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Static Noise</title>
+</head>
+
+<body class="">
+
+<div class="slikaDiv pozadina slika2">
+    
+    <div class="" style="height: 130vh;">
+    </div>
+
+    <div> <!-- Image with Static -->
+        <svg style="display: none;">
+            <defs>
+            <filter id="noise">
+                <feTurbulence
+                  baseFrequency="0.7,0.8"
+                  seed="0"
+                    type="fractalNoise"
+                    result="static"
+                >
+                <animate
+                    attributeName="seed"
+                    values="0;100"
+                    dur="800ms"
+                    repeatCount="1" 
+                    begin="card.mouseenter"                           
+                />
+                </feTurbulence>
+                <feDisplacementMap in="SourceGraphic" in2="static">
+                    <animate
+                    attributeName="scale"
+                    values="0;40;0"
+                    dur="800ms"
+                    repeatCount="1" 
+                    begin="card.mouseenter"                           
+                  />
+                </feDisplacementMap>
+            </filter>  
+            </defs>
+        </svg>
+        
+        <div id="card" style="margin-left: 5vw;">
+            <img src="slike/911-carrera/neon_1.jpg" alt="911-turbos" />
+            <a href="#"> </a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

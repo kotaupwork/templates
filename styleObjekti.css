@@ -1,0 +1,42 @@
+.kutija{    
+    background-color: rgba(0,0,0, 70%); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+
+.plavoDugme
+{
+    margin-top: 3vh;
+font-family: Roboto, sans-serif;
+font-weight: 0;
+font-size: 14px;
+color: #fff;
+background-color: #0066CC;
+padding: 10px 30px;
+border: 2px solid #0066cc;
+box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+border-radius: 50px;
+transition : 1000ms;
+transform: translateY(0);
+align-items: center;
+cursor: pointer;
+}
+
+.plavoDugme:hover
+{
+transition : 1000ms;
+padding: 10px 50px;
+transform : translateY(-0px);
+background-color: #fff;
+color: #0066cc;
+border: solid 2px #0066cc;
+}

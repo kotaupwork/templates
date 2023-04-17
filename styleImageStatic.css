@@ -1,0 +1,38 @@
+@keyframes pulseLong {
+    from, to {
+      scale: 1;
+    }
+    
+    50% {
+      scale: 1.08;
+    }
+  }
+  @media(max-width: 768px) {
+    #card {
+      width: 100%;
+    }
+    #card1 {
+      width: 100%;
+    }
+  }
+  
+  #card, #card2, #card3 {
+    width: 480px;
+    aspect-ratio: 2 / 3;
+    border: 0.25rem solid rgb(255 255 255 / 15%);
+    border-radius: 1rem;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  
+  #card > img, #card2 > img, #card3 > img{  
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: inherit;
+  }
+  
+  #card:hover > img,  #card2:hover > img, #card3:hover > img{
+    animation: pulseLong 800ms ease-in-out;
+    filter: url(#noise);
+  }

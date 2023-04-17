@@ -1,0 +1,37 @@
+@font-face {
+    font-family: JosefinSans;
+    src: url("fontovi/JosefinSans-BoldItalic.ttf");
+  }
+  @font-face {
+    font-family: Kanit;
+    src: url("fontovi/Kanit-Italic.ttf");
+  }
+  @font-face {
+    font-family: Merriweather;
+    src: url("fontovi/MerriweatherSans-Italic.ttf");
+  }
+  @font-face {
+    font-family: Righteous;
+    src: url("fontovi/Righteous-Regular.ttf");
+  }
+  @font-face {
+    font-family: Roboto;
+    src: url("fontovi/Roboto-Black.ttf");
+  }
+  @font-face {
+    font-family: Righteous;
+    src: url("fontovi/Righteous-Regular.ttf");
+  }
+  @font-face {
+    font-family: Russo;
+    src: url("fontovi/RussoOne-Regular.ttf");
+  }
+  @font-face {
+    font-family: TiltNeon;
+    src: url("fontovi/TiltNeon-Regular.ttf");
+  }
+  @font-face {
+    font-family: YuGiOh;
+    src: url("fontovi/Yu-Gi-Oh! Matrix.ttf");
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');

@@ -1,0 +1,36 @@
+<!-- Za slideshow - ne radi --!>
+
+<section class="home">
+        <img class="img-slide active" src="slike/gt3rs/gt3rs_1.jpg"></img>
+        <img class="img-slide" src="slike/gt3rs/gt3rs_2.jpg"></img>
+        <img class="img-slide" src="slike/gt3rs/gt3rs_3.jpg"></img>
+        <img class="img-slide" src="slike/gt3rs/gt3rs_4.jpg"></img>
+        <img class="img-slide" src="slike/gt3rs/gt3rs_5.jpg"></img>
+
+        <div class="media-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+
+        <div class="slider-navigation">
+            <div class="nav-btn active"></div>
+            <div class="nav-btn"></div>
+            <div class="nav-btn"></div>
+            <div class="nav-btn"></div>
+            <div class="nav-btn"></div>
+        </div>
+        
+    </section>
+
+
+
+
+
+
+//https://www.htmlcssbuttongenerator.com/css-button-generator.html
+//https://codepen.io/Hyperplexed/pen/rNrJgrd
+//https://taylorvowell.com/
+//https://www.rubens.design/
+//https://jopecuro.com/#Home
+//https://baloo.rs/?gclid=CjwKCAjwq-WgBhBMEiwAzKSH6MvQvScmsaNBaFG7ObfNBDEH7DzNoBVV4Rff_rIqKxfwbpleF9OF7xoCoIsQAvD_BwE

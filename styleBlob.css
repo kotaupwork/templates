@@ -1,10 +1,3 @@
-body {
-  background-color: black;
-  height: 100vh;
-  margin: 0rem;
-  overflow: hidden; 
-}
-
 @keyframes rotate {
   from {
     rotate: 0deg;
@@ -19,6 +12,15 @@ body {
   }
 }
 
+:root {
+  --color1: 128 255 212;
+  --color2: 147 112 216;
+  --primary-rgb1: var(--color1);
+  
+  --blob-color-1: rgb(var(--color1));
+  --blob-color-2: mediumpurple;
+}
+
 #blob {
   background-color: white;
   height: 34vmax;
@@ -28,7 +30,7 @@ body {
   top: 50%;
   translate: -50% -50%;
   border-radius: 50%;
-  background: linear-gradient(to right, aquamarine, mediumpurple);
+  background: linear-gradient(to right, var(--blob-color-1), var(--blob-color-2));
   animation: rotate 20s infinite;
   opacity: 0.8;
 }

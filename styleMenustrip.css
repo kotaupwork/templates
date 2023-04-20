@@ -1,3 +1,10 @@
+:root {
+    --submenu-gradient: linear-gradient(rgb(10, 12, 25, 0.02), rgb(10, 12, 25, 0.7), rgb(10, 12, 25, 0.7), rgb(10, 12, 25, 0.1));
+    --submenu1-gradient: linear-gradient(rgb(10, 12, 25, 0.9), rgb(10, 12, 25, 0.8), rgb(10, 12, 25, 0.7), rgb(10, 12, 25, 0.3));
+    --submenu-link-hover: rgb(0, 135, 212);
+    --submenu1-link-hover: rgb(129, 203, 247);
+}
+
 .menustrip
 {
     text-align: left;
@@ -27,7 +34,7 @@
 
 .menustrip ul li a
 {
-    color: rgb(240, 234, 234);
+    color: whitesmoke;
     text-decoration: none;
     font-weight: bolder;
     font-size: 2.4vh;
@@ -54,7 +61,7 @@
 {
     display:block;
     position: absolute;
-    background-image: linear-gradient(rgb(10, 12, 25, 0.02), rgb(10, 12, 25, 0.7), rgb(10, 12, 25, 0.7), rgb(10, 12, 25, 0.1));
+    background-image: var(--submenu-gradient);
 
     margin-top: 15px;
     margin-left: -15px;
@@ -77,7 +84,7 @@
 }
 .submenu ul li a:hover
 {
-    color: rgb(60, 110, 110);
+    color: var(--submenu-link-hover);
 }
 .menustrip ul li:hover .submenu ul li:last-child
 {
@@ -96,10 +103,10 @@
     display: block;
     margin-top: -50px;
     margin-left: 170px;
-    background-image: linear-gradient(rgb(10, 12, 25, 0.9), rgb(10, 12, 25, 0.8), rgb(10, 12, 25, 0.7), rgb(10, 12, 25, 0.3));
+    background-image: var(--submenu1-gradient);
 }
 
 .submenu1 ul li a:hover
 {
-    color: rgb(29, 28, 28);
+    color: var(--submenu1-link-hover);
 }

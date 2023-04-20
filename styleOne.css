@@ -6,9 +6,17 @@
     color: rgb(240, 234, 234);
     font-size: 2vh;
 }
-  :root {
-    --background-rgb: 29 30 34;
-  }
+:root {
+  --background-rgb: 29 30 34;
+  --color1: whitesmoke;
+  --color2: rgb(0, 200, 214);
+  --gradient1: linear-gradient(black,black 60%, transparent);
+  --gradient2: linear-gradient(black, rgb(40, 110, 118));
+  --gradient3: linear-gradient(black, transparent, transparent);
+  --gradient4: linear-gradient(rgb(40, 110, 118),  transparent);
+  --text-color1: rgb(0, 0, 0);
+  --text-color2: rgb(255, 255, 255);
+}
   body {
     height: 100vh;
     display: grid;

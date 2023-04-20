@@ -1,6 +1,12 @@
+:root {
+    --link-color: whitesmoke;
+    --link-hover: rgb(0, 200, 214);
+}
+
 a{
     font-size: 2.1vh;
     font-family: TiltNeon;
+    color: var(--link-color);
 }
 
 p{
@@ -36,7 +42,7 @@ h4{
 }
 
 .footer{
-    border-top:  2px solid #fff;;
+    border-top:  2px solid #fff;
     width: 100%;
     text-align:center; 
     display: inline-block;
@@ -57,7 +63,7 @@ h4{
 }
 .footerLink:hover
 {
-  color: rgb(208, 227, 233);
+  color: var(--link-hover);
 }
 
 .madeBy{

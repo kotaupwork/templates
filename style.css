@@ -1,3 +1,14 @@
+:root {
+    --color1: whitesmoke;
+    --color2: rgb(0, 200, 214);
+    --gradient1: linear-gradient(black,black 60%, transparent);
+    --gradient2: linear-gradient(black, rgb(40, 110, 118));
+    --gradient3: linear-gradient(black, transparent, transparent);
+    --gradient4: linear-gradient(rgb(40, 110, 118),  transparent);
+    --text-color1: rgb(0, 0, 0);
+    --text-color2: rgb(255, 255, 255);
+}
+
 *
 {
     padding: 0;
@@ -91,26 +102,23 @@ span{
 }
 
 .boja1{
-    background: rgb(40, 110, 118);
+    background: rgb(30, 30, 31);
 }
 .bojag1{
-    background-image: linear-gradient(black,black 60%, transparent);
+    background-image: var(--gradient1);
 }
 .bojag2{
-    background-image: linear-gradient(black, rgb(40, 110, 118));
+    background-image: var(--gradient2);
 }
 .bojag3{
-    background-image: linear-gradient(black, transparent, transparent);
+    background-image: var(--gradient3);
 }
 .bojag4{
-  background-image: linear-gradient(rgb(40, 110, 118),  transparent);
+  background-image: var(--gradient4);
 }
 
 .bojat1{
-    color: rgb(255, 189, 43);
-}
-.bojat2{
-    color: rgb(0, 0, 0);
+    color: var(--text-color1);
 }
 
 .topGradient{
@@ -140,30 +148,18 @@ span{
     background-image: url("slike/logo.png");
 }
 
-.slikaBg1{
-    background-image: url("slike/rest/green_display.jpg");
-    background-repeat: no-repeat;
-}
-.slikaBg2{
-    background-image: url("slike/stock/office-empty.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-.slikaBg3{
-    background-image: url("slike/stock/floating2.png");
-}
 .slika1{
-    background-image: url("slike/gt3rs/gt3rs_index.jpg");
+    background-image: url("slike/stock/library_1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 .slika2{
-  background-image: url("slike/911-turbos/911-turbos_rear.jpg");
+  background-image: url("slike/stock/library_2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 .slika3{
-  background-image: url("slike/wideBody/rwb_index.jpg");
+  background-image: url("slike/stock/library_3.jpg");
   background-repeat: no-repeat;
   background-size:cover;
 }
